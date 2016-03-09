@@ -19,6 +19,9 @@ class Division {
 		} catch (Exception e) { 
 			System.out.println("Oops!  Divide by zero error.");
 		}
+		finally {
+			System.out.println("finally block will execute.");
+		}
 
 	}
 }
